@@ -2,7 +2,7 @@ import os
 
 # Define the current and total tasks for each subject
 tasks = {
-    "Courses": {"completed": 3, "total": 6},
+    "Courses": {"completed": 2, "total": 6},
     "Books": {"completed": 2, "total": 5},
     "Projects": {"completed": 1, "total": 3},
 }

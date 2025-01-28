@@ -29,7 +29,7 @@ for task, values in tasks.items():
 markdown_content
 
 # Define the path for the ProgressStatus.md file
-readme_path = "ProgressStatus.md"
+readme_path = "python/ProgressStatus.md"
 
 # Write the generated content to the ProgressStatus.md file
 with open(readme_path, "w") as f:

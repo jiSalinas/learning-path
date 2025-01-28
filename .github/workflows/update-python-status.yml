@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '02 21 * * *'  # Daily at midnight
+    - cron: '0 0 * * *'  # Daily at midnight
 
 jobs:
   update-readme:
@@ -24,7 +24,7 @@ jobs:
       #   pip install -r requirements.txt
 
       - name: Run the Python script
-        run: python python/update_status.py
+        run: python update_status.py
 
       - name: Commit changes
         run: |

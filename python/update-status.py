@@ -28,10 +28,10 @@ for task, values in tasks.items():
 # Display the generated Markdown content
 markdown_content
 
-# Define the path for the README.md file
-readme_path = "README.md"
+# Define the path for the ProgressStatus.md file
+readme_path = "ProgressStatus.md"
 
-# Write the generated content to the README.md file
+# Write the generated content to the ProgressStatus.md file
 with open(readme_path, "w") as f:
     f.write(markdown_content)
 

@@ -21,7 +21,7 @@ jobs:
       #   pip install -r requirements.txt
 
       - name: Run the Python script
-        run: python learning-path/python/update_status.py
+        run: python python/update_status.py
 
       - name: Commit changes
         run: |

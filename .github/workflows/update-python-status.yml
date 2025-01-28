@@ -3,7 +3,8 @@ name: Update README
 on:
   workflow_dispatch:
   push:
-    branches: [ master ]
+    paths:
+      - python/update-status.py
 jobs:
   update-readme:
     runs-on: ubuntu-latest

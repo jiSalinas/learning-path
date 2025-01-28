@@ -2,10 +2,7 @@ name: Update README
 
 on:
   push:
-    branches:
-      - main
-  schedule:
-    - cron: '0 0 * * *'  # Daily at midnight
+    branches: [ master ]
 
 jobs:
   update-readme:
@@ -15,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
@@ -24,7 +21,7 @@ jobs:
       #   pip install -r requirements.txt
 
       - name: Run the Python script
-        run: python update_status.py
+        run: python python/update_status.py
 
       - name: Commit changes
         run: |

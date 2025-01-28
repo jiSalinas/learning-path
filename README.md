@@ -5,7 +5,7 @@ This repository is my personal learning path where I track courses, books, and r
 
 ## Objectives
 - Learn
-  - Python: [Progress](https://github.com/jiSalinas/learning-path/tree/main/python/README.md)
+  - Python: [Progress](https://github.com/jiSalinas/learning-path/tree/main/python/ProgressStatus.md) 
   - Data Science
   - Devcontainers
   - Docker

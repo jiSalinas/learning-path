@@ -27,6 +27,6 @@ jobs:
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          git add ProgressStatus.md
+          git add python/ProgressStatus.md
           git commit -m "Update ProgressStatus with progress"
           git push

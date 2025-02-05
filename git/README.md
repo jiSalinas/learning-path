@@ -3,20 +3,18 @@
 This repository is my personal learning path where I track courses, books, and resources I use. Here are my objectives:
 
 ## Objectives
-- Learn Python programming
-- Complete Data Science basics
-- Build simple web apps using Flask
+- Learn Git
 
 ## Timeline
-- Complete Python basics by February 2025
-- Read Think Python
+- Complete Youtube course Learn Git - The Full Course <span style="color:red">*09/01/2025*</span>.
+- Read Pro Git <span style="color:red">*01/03/2025*</span>.
 
 ## Progress Summary
 ![Progress](https://img.shields.io/badge/Progress-50%25-yellow)
 
 ### Current Status
-- **Courses:** 0/5 completed
-- **Books:** 0/5 read
+- **Courses:** 0/1 completed
+- **Books:** 0/1 read
 - **Projects:** 0/1 completed
 
 ## Detailed Progress
@@ -30,6 +28,6 @@ This repository is my personal learning path where I track courses, books, and r
 ---
 
 ### Resources
-- 📚 Books: [List of books](books/README.md)
-- 📋 Courses: [Course progress](courses/README.md)
+- 📚 Books: [Pro Git](https://git-scm.com/book/en/v2)
+- 📋 Courses: [Learn Git - The Full Course](https://youtu.be/rH3zE7VlIMs?si=p84j9g64ZSLY_KOp)
 - 🔗 Additional Resources: [Links](resources/README.md)

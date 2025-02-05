@@ -26,4 +26,4 @@ This repository is my personal learning path of Git, where I track courses, book
 |------------|-----------|
 | Courses | ░░░░░░░░░░ 0% |
 | Books | ░░░░░░░░░░ 0% |
-| Projects | ███░░░░░░░ 33% |
+| Projects | ░░░░░░░░░░ 0% |

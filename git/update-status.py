@@ -4,7 +4,7 @@ import os
 tasks = {
     "Courses": {"completed": 0, "total": 1},
     "Books": {"completed": 0, "total": 1},
-    "Projects": {"completed": 1, "total": 3},
+    "Projects": {"completed": 0, "total": 3},
 }
 
 # Function to generate a progress bar

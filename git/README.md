@@ -1,33 +1,29 @@
 # My Learning Journey
 
-This repository is my personal learning path where I track courses, books, and resources I use. Here are my objectives:
+This repository is my personal learning path of Git, where I track courses, books, and resources I am currently using.
 
 ## Objectives
-- Learn Git
+
+	- Learn Git
 
 ## Timeline
-- Complete Youtube course Learn Git - The Full Course <span style="color:red">*09/01/2025*</span>.
-- Read Pro Git <span style="color:red">*01/03/2025*</span>.
 
-## Progress Summary
-![Progress](https://img.shields.io/badge/Progress-50%25-yellow)
+	- Complete Youtube course Learn Git - The Full Course <span style='color:red'>*09/01/2025*</span>.
+
+	- Read Pro Git <span style='color:red'>*01/03/2025*</span>.
 
 ### Current Status
-- **Courses:** 0/1 completed
-- **Books:** 0/1 read
-- **Projects:** 0/1 completed
 
-## Detailed Progress
+	- **Courses:** 0/1 completed
 
-| Task       | Status       | Progress  |
-|------------|--------------|-----------|
-| Courses    | In Progress  | █████░░░░ 50% |
-| Books      | In Progress  | ████░░░░░░ 40% |
-| Projects   | Started      | ███░░░░░░░ 30% |
+	- **Books:** 0/1 read
 
----
+	- **Projects:** 0/1 completed
 
-### Resources
-- 📚 Books: [Pro Git](https://git-scm.com/book/en/v2)
-- 📋 Courses: [Learn Git - The Full Course](https://youtu.be/rH3zE7VlIMs?si=p84j9g64ZSLY_KOp)
-- 🔗 Additional Resources: [Links](resources/README.md)
+# Detailed Progress
+
+| Task       | Progress  |
+|------------|-----------|
+| Courses | ░░░░░░░░░░ 0% |
+| Books | ░░░░░░░░░░ 0% |
+| Projects | ░░░░░░░░░░ 0% |

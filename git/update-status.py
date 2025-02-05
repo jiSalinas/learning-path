@@ -2,9 +2,9 @@ import os
 
 # Define the current and total tasks for each subject
 tasks = {
-    "Courses": {"completed": 2, "total": 6},
-    "Books": {"completed": 2, "total": 5},
-    "Projects": {"completed": 1, "total": 3},
+    "Courses": {"completed": 0, "total": 1},
+    "Books": {"completed": 0, "total": 1},
+    "Projects": {"completed": 0, "total": 3},
 }
 
 # Function to generate a progress bar
@@ -29,7 +29,7 @@ for task, values in tasks.items():
 markdown_content
 
 # Define the path for the ProgressStatus.md file
-readme_path = "python/ProgressStatus.md"
+readme_path = "git/ProgressStatus.md"
 
 # Write the generated content to the ProgressStatus.md file
 with open(readme_path, "w") as f:

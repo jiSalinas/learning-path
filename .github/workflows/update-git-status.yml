@@ -1,0 +1,30 @@
+name: Update git-status progress
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - git/update-status.py
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run the Python script
+        run: python git/update-status.py
+
+      - name: Commit changes
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          cd git
+          git add ProgressStatus.md
+          git commit -m "Update ProgressStatus with progress"
+          git push

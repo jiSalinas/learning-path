@@ -8,9 +8,9 @@ This repository is my personal learning path of Git, where I track courses, book
 
 ## Timeline
 
-	- Complete Youtube course Learn Git - The Full Course <span style='color:red'>*09/01/2025*</span>.
+	- Complete Youtube course Learn Git - The Full Course ![red text](*09/01/2025*).
 
-	- Read Pro Git <span style='color:red'>*01/03/2025*</span>.
+	- Read Pro Git ![red text](*01/03/2025*).
 
 ### Current Status
 

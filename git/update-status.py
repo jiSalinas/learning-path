@@ -18,7 +18,18 @@ def generate_progress_bar(current, total):
     return progress_bar, f"{percentage:.0f}%"
 
 # Generate Markdown content for the README
-markdown_content = "# Learning Path Progress Tracker\n\n"
+markdown_content = "# My Learning Journey\n\n"
+markdown_content += "This repository is my personal learning path of Git, where I track courses, books, and resources I am currently using.\n\n"
+markdown_content += "## Objectives\n\n"
+markdown_content += "\t- Learn Git\n\n"
+markdown_content += "## Timeline\n\n"
+markdown_content += "\t- Complete Youtube course Learn Git - The Full Course <span style='color:red'>*09/01/2025*</span>.\n\n"
+markdown_content += "\t- Read Pro Git <span style='color:red'>*01/03/2025*</span>.\n\n"
+markdown_content += "### Current Status\n\n"
+markdown_content += "\t- **Courses:** 0/1 completed\n\n"
+markdown_content += "\t- **Books:** 0/1 read\n\n"
+markdown_content += "\t- **Projects:** 0/1 completed\n\n"
+markdown_content += "# Detailed Progress\n\n"
 markdown_content += "| Task       | Progress  |\n|------------|-----------|\n"
 
 for task, values in tasks.items():
@@ -29,7 +40,7 @@ for task, values in tasks.items():
 markdown_content
 
 # Define the path for the ProgressStatus.md file
-readme_path = "git/ProgressStatus.md"
+readme_path = "git/README.md"
 
 # Write the generated content to the ProgressStatus.md file
 with open(readme_path, "w") as f:

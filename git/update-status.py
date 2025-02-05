@@ -23,8 +23,8 @@ markdown_content += "This repository is my personal learning path of Git, where 
 markdown_content += "## Objectives\n\n"
 markdown_content += "\t- Learn Git\n\n"
 markdown_content += "## Timeline\n\n"
-markdown_content += "\t- Complete Youtube course Learn Git - The Full Course <span style='color:red'>*09/01/2025*</span>.\n\n"
-markdown_content += "\t- Read Pro Git <span style='color:red'>*01/03/2025*</span>.\n\n"
+markdown_content += "\t- Complete Youtube course Learn Git - The Full Course " + "<span style='color:red'>*09/01/2025*</span>" + ".\n\n"
+markdown_content += "\t- Read Pro Git " + "<span style='color:red'>*01/03/2025*</span>" + ".\n\n"
 markdown_content += "### Current Status\n\n"
 markdown_content += "\t- **Courses:** 0/1 completed\n\n"
 markdown_content += "\t- **Books:** 0/1 read\n\n"
@@ -39,10 +39,10 @@ for task, values in tasks.items():
 # Display the generated Markdown content
 markdown_content
 
-# Define the path for the ProgressStatus.md file
+# Define the path for the README.md file
 readme_path = "git/README.md"
 
-# Write the generated content to the ProgressStatus.md file
+# Write the generated content to the README.md file
 with open(readme_path, "w") as f:
     f.write(markdown_content)
 
